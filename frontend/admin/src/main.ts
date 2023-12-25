@@ -2,6 +2,7 @@
 // https://github.com/shoelace-style/rollup-example/blob/master/src/index.js
 // +
 // https://shoelace.style/getting-started/installation?id=bundling#bundling
+import './main.css';
 import '@shoelace-style/shoelace/dist/themes/light.css';
 import { setBasePath } from '@shoelace-style/shoelace/dist/utilities/base-path.js';
 
