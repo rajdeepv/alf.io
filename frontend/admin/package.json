@@ -9,10 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@shoelace-style/shoelace": "^2.12.0",
     "lit": "^3.1.0"
   },
   "devDependencies": {
     "typescript": "^5.2.2",
-    "vite": "^5.0.8"
+    "vite": "^5.0.8",
+    "vite-plugin-static-copy": "^1.0.0"
   }
 }

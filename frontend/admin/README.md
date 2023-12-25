@@ -6,6 +6,8 @@ Created with vite: `npm create vite@latest admin -- --template lit-ts`
 
 See https://vitejs.dev/guide/backend-integration.html
 
+See https://stackoverflow.com/a/76446465 for icon/static assets
+
 ## run dev server
 
 `npm run dev`
@@ -14,4 +16,6 @@ Then you can launch alf.io normally and go to localhost:8080/admin/ -> all the c
 
 ## todo
 
+ - find a decent way to inline the icons as data uri
+ - fix font size when used in a bootstrap context
  - static build integration
