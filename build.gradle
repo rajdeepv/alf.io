@@ -16,7 +16,7 @@ buildscript {
         classpath 'com.opentable.components:otj-pg-embedded:0.13.3'
         classpath 'org.postgresql:postgresql:42.2.20'
         //this is for processing the index.html at compile time
-        classpath "com.github.alfio-event:alf.io-public-frontend:$alfioPublicFrontendVersion"
+        classpath "com.github.rajdeepv:alf.io-public-frontend:$alfioPublicFrontendVersion"
         classpath "ch.digitalfondue.jfiveparse:jfiveparse:1.0.0"
         //
     }
@@ -158,7 +158,7 @@ dependencies {
     implementation 'org.mozilla:rhino-runtime:1.7.13'
     implementation 'com.google.auth:google-auth-library-oauth2-http:1.3.0'
 
-    implementation "com.github.alfio-event:alf.io-public-frontend:$alfioPublicFrontendVersion"
+    implementation "com.github.rajdeepv:alf.io-public-frontend:$alfioPublicFrontendVersion"
 
     compileOnly "javax.servlet:javax.servlet-api:4.0.1"
     testImplementation "javax.servlet:javax.servlet-api:4.0.1"

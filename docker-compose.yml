@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   alfio:
-    image: alfio/alf.io
+    image: alfio/alf.io:food
     environment:
       POSTGRES_PORT_5432_TCP_PORT: 5432
       POSTGRES_PORT_5432_TCP_ADDR: db

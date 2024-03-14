@@ -485,6 +485,8 @@ public class ReservationApiV2Controller {
                 .or(() -> Optional.of(bookingInfoTicketLoader.getSubscriptionFieldsFilterer(reservationId, (SubscriptionDescriptor) purchaseContext)));
 
             //
+            //        INFO: changed for restuaurent
+            contactAndTicketsForm.setPostponeAssignment(true);
             contactAndTicketsForm.validate(bindingResult, purchaseContext, new SameCountryValidator(configurationManager, extensionManager, purchaseContext, reservationId, vatChecker),
                 formValidationParameters, fieldsFilterer, reservationCost.requiresPayment(), extensionManager,
                 () -> additionalServiceManager.findItemsInReservation(purchaseContext, reservationId));
